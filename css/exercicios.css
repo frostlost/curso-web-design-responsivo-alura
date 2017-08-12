@@ -1,0 +1,10 @@
+/* lista de notícias */
+.secao {
+	float: left;
+	width: 33.333%;
+}
+
+.mini {
+    width: 50%;
+    float: left;
+}
