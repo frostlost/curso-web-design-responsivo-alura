@@ -1,4 +1,40 @@
+/* Classic */
+img {
+	max-width: 100%;
+}
+
+/* Header */
+header {
+	padding: .5em 0;
+}
+
+.logo, .barra-nav, .menu-principal, .busca {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.barra-nav {
+	margin: .4em 0;
+}
+
+.menu-principal li {
+	float: left;
+}
+
 /* lista de notícias */
+.container {
+	margin: 0 auto;
+	max-width: 1200px;
+}
+
+.destaques {
+	margin-top: 1em;
+}
+
+.logo, .secao {
+	padding: 0 1%;
+}
+
 .secao {
 	float: left;
 	width: 33.333%;
