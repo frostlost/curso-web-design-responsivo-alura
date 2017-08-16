@@ -38,6 +38,54 @@ header {
 	float: left;
 }
 
+.menu-ativo:after {
+	content: "";
+	display: block;
+
+	position: fixed;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+
+	background: rgba(0,0,0,.4);
+}
+
+@media not all and (max-width: 600px) {
+
+	.menu-abrir, .menu-fechar {
+		display: none;
+	}
+
+}
+
+@media (max-width: 600px) {
+
+	.barra-nav {
+		background: #f0f0f0;
+		margin: 0;
+		padding: 1em;
+
+		height: 100%;
+		width: 90%;
+		max-width: 320px;
+
+		position: fixed;
+		z-index: 1;
+		top: 0;
+		left: -90%;
+
+		-webkit-transition: left .3s ease-out;
+		-o-transition: left .3s ease-out;
+		transition: left .3s ease-out;
+	}
+
+	.menu-ativo .barra-nav {
+		left: 0;
+	}
+
+}
+
 /* lista de notícias */
 .container {
 	margin: 0 auto;
