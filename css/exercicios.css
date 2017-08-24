@@ -89,6 +89,14 @@ header {
 		width: 100%;
 	}
 
+	.menu-abrir {
+		margin: 0 1%;
+	}
+
+	.menu-fechar {
+		display: none;
+	}
+
 }
 
 /* lista de notícias */
