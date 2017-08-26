@@ -89,12 +89,57 @@ header {
 		width: 100%;
 	}
 
-	.menu-abrir {
+	.menu-abrir, .menu-fechar {
 		margin: 0 1%;
+		padding: .625em;
+	    background: none;
+	    border: none;
+	    cursor: pointer;
+		border: .063em solid #ccc;
+		color: #666;
+		border-radius: .313em;
+		transition: .3s;
+	}
+
+	.menu-abrir:hover {
+		background-color: rgba(0,0,0,.1);
+	}
+
+	.menu-fechar {
+		margin: 0 0 1em 0;
+		border: none;
+		padding: 0 .63em 1em 0;
+	}
+
+	.menu-fechar:hover {
+		color: rgba(0,0,0,.4);
+	}
+
+	.busca {
+		margin-top: 1em;
 	}
 
 	.invisivel {
 		display: none;
+	}
+
+}
+
+@media (max-width: 340px) {
+
+	.busca input {
+		float: none;
+		border-radius: .312em;
+		border-bottom-color: #CCC;
+		border-right-width: 1px;
+		box-shadow: none;
+	}
+
+	.busca button {
+		float: none;
+		display: block;
+		margin-top: .5em;
+	    border-radius: 5px;
 	}
 
 }
