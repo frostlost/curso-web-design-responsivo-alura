@@ -15,10 +15,12 @@
 
 }
 
+
 /* Classic */
 img {
 	max-width: 100%;
 }
+
 
 /* Header */
 header {
@@ -28,6 +30,10 @@ header {
 .logo, .barra-nav, .menu-principal, .busca {
 	display: inline-block;
 	vertical-align: middle;
+}
+
+.logo img {
+	width: 10em;
 }
 
 .barra-nav {
